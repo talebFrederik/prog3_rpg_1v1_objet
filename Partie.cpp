@@ -39,7 +39,7 @@ void Partie::choisirEnnemi()
 {
 	std::random_device rd;
 	std::mt19937 rn(rd());
-	std::uniform_int_distribution<> rng(0, 4);
+	std::uniform_int_distribution<> rng(0, 5);
 
 	m_ennemi = m_listeEnnemis[rng(rn)];
 }

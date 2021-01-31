@@ -7,7 +7,7 @@ Strategie::Strategie(std::string nom, int pourcentageTouche, int modificateurDmg
 	: m_nom{ nom }, m_pourcentageTouche{ pourcentageTouche }, m_modificateurDmg{modificateurDmg}
 {}
 
-int Strategie::getDmgFinal(int dmg)
+int Strategie::getDmgFinal(int dommage)
 {
 	std::random_device rd;
 	std::mt19937 rn(rd());
