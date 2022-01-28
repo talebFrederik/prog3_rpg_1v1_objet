@@ -19,6 +19,6 @@ int Strategie::getDmgFinal(int dommage)
 	}
 	else
 	{
-		return dmg + m_modificateurDmg;
+		return dommage + m_modificateurDmg;
 	}
 }
