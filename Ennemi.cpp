@@ -7,7 +7,7 @@ int Ennemi::attaquer(Strategie strategie)
 	return strategie.getDmgFinal(m_dmg);
 }
 
-int Ennemi::recevoirDmg(bool dmg) 
+int Ennemi::recevoirDmg(int dmg) 
 {
 	m_vie -= dmg;
 	return m_vie;
